@@ -4,7 +4,7 @@ This system automatically identifies wether a construction site worker is wearin
 If there is an missing equipment then this model will detect and provide the unequiped item.
 It is built using the yolov8 which detects the real time object and deployed through a steamlit dashboard, offering an interactive and user-friendly interface to display compliance levels in real time.
 
-# Project Aims
+Project Aims
 Develop an AI model to detect PPE items including hardhats, masks, and safety vests.
 Classify workers based on compliance levels:
 Green Compliant: All PPE items detected
@@ -12,7 +12,7 @@ Yellow Partially Compliant: One or two PPE items detected
 Red Non-Compliant: No PPE detected
 Deploy the system on Streamlit Cloud for live monitoring and inference.
 
-# Model Specifications
+Model Specifications
 Model Used: YOLOv8
 Reason for Selection: High detection accuracy, fast inference speed, and seamless Python integration.
 Classes Trained:
@@ -23,7 +23,7 @@ No-Hardhat
 No-Mask
 No-Safety Vest
 
-# Process workflow
+Process workflow
 Dataset Preparation
 PPE images of construction workers were collected and labeled.
 Data split: 70% Training, 30% Testing.
