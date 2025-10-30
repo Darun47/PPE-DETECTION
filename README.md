@@ -1,5 +1,5 @@
 # Project overview
-this project is an computer vision-based PPE(personal protective equipments) Detection system which uses machine learning and deep learning concepts. 
+This project is an computer vision-based PPE(personal protective equipments) Detection system which uses machine learning and deep learning concepts. 
 This system automatically identifies wether a construction site worker is wearing the equipments properly such as helmets, safety vests, and masks.
 If there is an missing equipment then this model will detect and provide the unequiped item.
 It is built using the yolov8 which detects the real time object and deployed through a steamlit dashboard, offering an interactive and user-friendly interface to display compliance levels in real time.
